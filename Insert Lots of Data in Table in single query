@@ -1,0 +1,18 @@
+Sometime we need to enter lots of data in SQL database table
+Except of writing insert command again n again
+I prefer to use this query
+.....
+          insert into dbo.tbldata(imgpath,section,createdDate,catId)
+          values('images/k1.jpeg',9,getdate(),1), 
+          ('images/k2.jpeg',9,getdate(),1), 
+          ('images/k3.jpeg',9,getdate(),1), 
+          ('images/k4.jpeg',9,getdate(),1), 
+          ('images/k5.jpeg',9,getdate(),1), 
+          ('images/k6.jpeg',9,getdate(),1), 
+          ('images/k7.jpeg',9,getdate(),1), 
+          ('images/k8.jpeg',9,getdate(),1), 
+          ('images/k9.jpeg',9,getdate(),1), 
+          ('images/k10.jpeg',9,getdate(),1),
+          ('images/k11.jpeg',9,getdate(),1)
+.....
+By this we can add many rows and columns at one time n by single query..
