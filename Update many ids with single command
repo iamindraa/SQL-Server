@@ -1,0 +1,6 @@
+Some time we need to update many ids at a time .
+Query to do this action
+
+update dbo.tbldata set heading='indra' where id between 1 and 100
+
+this query update column name heading of table naming tbldata where id will between 1 to 100 
