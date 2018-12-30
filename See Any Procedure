@@ -1,0 +1,7 @@
+Its a common problem that we dnt know what is written in the procedure 
+Just to see any procedure 
+Query ..
+
+SP_HELPTEXT insertdata
+
+here insertdata is the procedure name that is stored in the sql database.
