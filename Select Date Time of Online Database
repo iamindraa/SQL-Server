@@ -1,0 +1,6 @@
+Just to show date and time of server
+Query 
+
+select getdate()
+
+this query will show u the date time of online server
