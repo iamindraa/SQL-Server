@@ -1,0 +1,3 @@
+CONVERT(varchar(30), createdDate,107) createdDate
+
+it will show u date like 02 Jan 2019
